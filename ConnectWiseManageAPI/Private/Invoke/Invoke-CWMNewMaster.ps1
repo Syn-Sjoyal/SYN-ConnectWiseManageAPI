@@ -22,7 +22,7 @@
     }
     Write-Verbose $Body
 
-    $ContentType = 'application/json'
+    $ContentType = 'application/json; charset=utf-8'
     if ($Arguments.ContentType) {
         $ContentType = $Arguments.ContentType
     }
